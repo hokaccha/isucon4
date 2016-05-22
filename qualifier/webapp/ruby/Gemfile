@@ -7,3 +7,7 @@ gem "rack-flash3"
 gem "unicorn"
 gem "foreman"
 gem "rake"
+
+group :development do
+  gem 'itamae'
+end
