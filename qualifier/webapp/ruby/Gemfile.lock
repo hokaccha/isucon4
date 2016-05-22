@@ -17,6 +17,7 @@ GEM
     rack-protection (1.5.3)
       rack
     raindrops (0.13.0)
+    rake (11.1.2)
     sinatra (1.4.5)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -35,5 +36,9 @@ DEPENDENCIES
   foreman
   mysql2-cs-bind
   rack-flash3
+  rake
   sinatra
   unicorn
+
+BUNDLED WITH
+   1.12.3
