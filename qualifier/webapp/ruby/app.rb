@@ -3,6 +3,7 @@ require 'digest/sha2'
 require 'mysql2-cs-bind'
 require 'rack-flash'
 require 'json'
+require 'erubis'
 require './xquery_profiler'
 
 #XQueryProfiler.enable!(output_to: '/tmp/query.log')
